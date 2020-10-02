@@ -5,14 +5,12 @@ ADD | Add
  | | ADD R2, R2, #1 = 01 20 82 E2
  | | ADD R1, R1, #4 = 04 10 81 E2
  | | ADD SP, SP, #4 = 04 D0 8D E2
- | | 
 AND | Logical AND
  | | AND R10, R9, R10     = 0A A0 09 E0
  | | AND R10, R4, R10     = 0A A0 04 E0
  | | AND R11, R11, #0xF8  = F8 B0 0B E2
  | | ANDS R3, R10, #0xFF  = FF 30 1A E2
  | | ANDS R3, R0, #0xFF   = FF 30 10 E2
- | | 
 B | Branch
  | | B   = xx xx xx EA (branch)
  | | BEQ = xx xx xx 0A (if zero, Z)
