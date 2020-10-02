@@ -1,4 +1,4 @@
-Mnemonic | Description
+Mnemonic | Description and examples
 ---------|----------
 ADD | Add
  | | ADD R3, R2, R3 = 03 30 82 E0
